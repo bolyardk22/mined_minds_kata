@@ -19,4 +19,8 @@ class Mnfunc_Test <Minitest::Test
 		assert_equal("mined",mned(3))
 	end
 
+	def test_six_returns_mined
+		assert_equal("mined",mned(6))
+	end
+
 end
