@@ -1,5 +1,5 @@
 def mned(n)
-	if n == 15
+	if n % 15 == 0
 		"mined minds"
 	elsif n % 5 == 0
 		"minds"

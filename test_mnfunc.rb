@@ -35,4 +35,8 @@ class Mnfunc_Test <Minitest::Test
 		assert_equal("mined minds",mned(15))
 	end
 
+	def test_thirty_returns_mined_minds
+		assert_equal("mined minds",mned(30))
+	end
+
 end
