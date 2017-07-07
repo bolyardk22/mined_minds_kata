@@ -11,4 +11,12 @@ class Mnfunc_Test <Minitest::Test
 		assert_equal(1,mned(1))
 	end
 
+	def test_two_returns_two
+		assert_equal(2,mned(2))
+	end
+
+	def test_three_returns_mined
+		assert_equal("mined",mned(3))
+	end
+
 end
