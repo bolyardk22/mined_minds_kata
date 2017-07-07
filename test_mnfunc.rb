@@ -23,4 +23,8 @@ class Mnfunc_Test <Minitest::Test
 		assert_equal("mined",mned(6))
 	end
 
+	def test_five_returns_minds
+		assert_equal("minds",mned(5))
+	end
+
 end
